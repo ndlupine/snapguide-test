@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015271DA165DB22D0084D2C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015271D9165DB22D0084D2C2 /* UIKit.framework */; };
+		015271DC165DB22D0084D2C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015271DB165DB22D0084D2C2 /* Foundation.framework */; };
+		015271DE165DB22D0084D2C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015271DD165DB22D0084D2C2 /* CoreGraphics.framework */; };
+		015271E4165DB22D0084D2C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 015271E2165DB22D0084D2C2 /* InfoPlist.strings */; };
+		015271E6165DB22D0084D2C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 015271E5165DB22D0084D2C2 /* main.m */; };
+		015271EA165DB22D0084D2C2 /* NLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 015271E9165DB22D0084D2C2 /* NLAppDelegate.m */; };
+		015271EC165DB22D0084D2C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 015271EB165DB22D0084D2C2 /* Default.png */; };
+		015271EE165DB22D0084D2C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 015271ED165DB22D0084D2C2 /* Default@2x.png */; };
+		015271F0165DB22D0084D2C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 015271EF165DB22D0084D2C2 /* Default-568h@2x.png */; };
+		015271FC165DB2900084D2C2 /* NLNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 015271FB165DB2900084D2C2 /* NLNetworkManager.m */; };
+		01527203165DC1870084D2C2 /* NLSnapguideTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01527202165DC1870084D2C2 /* NLSnapguideTestViewController.m */; };
+		0152720C165EDDB00084D2C2 /* NLInstagramPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0152720B165EDDB00084D2C2 /* NLInstagramPhotoCell.m */; };
+		0152720F165EDDC60084D2C2 /* NLInstagramPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 0152720E165EDDC60084D2C2 /* NLInstagramPhoto.m */; };
+		0152721216604F200084D2C2 /* NLLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0152721116604F200084D2C2 /* NLLoadingView.m */; };
+		015272161660776B0084D2C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015272151660776B0084D2C2 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015271D5165DB22D0084D2C2 /* SnapguideTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapguideTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		015271D9165DB22D0084D2C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		015271DB165DB22D0084D2C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		015271DD165DB22D0084D2C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		015271E1165DB22D0084D2C2 /* SnapguideTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapguideTest-Info.plist"; sourceTree = "<group>"; };
+		015271E3165DB22D0084D2C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		015271E5165DB22D0084D2C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		015271E7165DB22D0084D2C2 /* SnapguideTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapguideTest-Prefix.pch"; sourceTree = "<group>"; };
+		015271E8165DB22D0084D2C2 /* NLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLAppDelegate.h; sourceTree = "<group>"; };
+		015271E9165DB22D0084D2C2 /* NLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLAppDelegate.m; sourceTree = "<group>"; };
+		015271EB165DB22D0084D2C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		015271ED165DB22D0084D2C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		015271EF165DB22D0084D2C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		015271FA165DB2900084D2C2 /* NLNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLNetworkManager.h; sourceTree = "<group>"; };
+		015271FB165DB2900084D2C2 /* NLNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLNetworkManager.m; sourceTree = "<group>"; };
+		01527201165DC1870084D2C2 /* NLSnapguideTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLSnapguideTestViewController.h; sourceTree = "<group>"; };
+		01527202165DC1870084D2C2 /* NLSnapguideTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLSnapguideTestViewController.m; sourceTree = "<group>"; };
+		0152720A165EDDB00084D2C2 /* NLInstagramPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLInstagramPhotoCell.h; sourceTree = "<group>"; };
+		0152720B165EDDB00084D2C2 /* NLInstagramPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLInstagramPhotoCell.m; sourceTree = "<group>"; };
+		0152720D165EDDC50084D2C2 /* NLInstagramPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLInstagramPhoto.h; sourceTree = "<group>"; };
+		0152720E165EDDC60084D2C2 /* NLInstagramPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLInstagramPhoto.m; sourceTree = "<group>"; };
+		0152721016604F200084D2C2 /* NLLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLLoadingView.h; sourceTree = "<group>"; };
+		0152721116604F200084D2C2 /* NLLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLLoadingView.m; sourceTree = "<group>"; };
+		015272151660776B0084D2C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015271D2165DB22D0084D2C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015272161660776B0084D2C2 /* QuartzCore.framework in Frameworks */,
+				015271DA165DB22D0084D2C2 /* UIKit.framework in Frameworks */,
+				015271DC165DB22D0084D2C2 /* Foundation.framework in Frameworks */,
+				015271DE165DB22D0084D2C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015271CA165DB22D0084D2C2 = {
+			isa = PBXGroup;
+			children = (
+				015271DF165DB22D0084D2C2 /* SnapguideTest */,
+				015271D8165DB22D0084D2C2 /* Frameworks */,
+				015271D6165DB22D0084D2C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		015271D6165DB22D0084D2C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				015271D5165DB22D0084D2C2 /* SnapguideTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		015271D8165DB22D0084D2C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				015272151660776B0084D2C2 /* QuartzCore.framework */,
+				015271D9165DB22D0084D2C2 /* UIKit.framework */,
+				015271DB165DB22D0084D2C2 /* Foundation.framework */,
+				015271DD165DB22D0084D2C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		015271DF165DB22D0084D2C2 /* SnapguideTest */ = {
+			isa = PBXGroup;
+			children = (
+				015271E8165DB22D0084D2C2 /* NLAppDelegate.h */,
+				015271E9165DB22D0084D2C2 /* NLAppDelegate.m */,
+				015271FA165DB2900084D2C2 /* NLNetworkManager.h */,
+				015271FB165DB2900084D2C2 /* NLNetworkManager.m */,
+				01527201165DC1870084D2C2 /* NLSnapguideTestViewController.h */,
+				01527202165DC1870084D2C2 /* NLSnapguideTestViewController.m */,
+				0152720A165EDDB00084D2C2 /* NLInstagramPhotoCell.h */,
+				0152720B165EDDB00084D2C2 /* NLInstagramPhotoCell.m */,
+				0152720D165EDDC50084D2C2 /* NLInstagramPhoto.h */,
+				0152720E165EDDC60084D2C2 /* NLInstagramPhoto.m */,
+				0152721016604F200084D2C2 /* NLLoadingView.h */,
+				0152721116604F200084D2C2 /* NLLoadingView.m */,
+				015271E0165DB22D0084D2C2 /* Supporting Files */,
+			);
+			path = SnapguideTest;
+			sourceTree = "<group>";
+		};
+		015271E0165DB22D0084D2C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				015271E1165DB22D0084D2C2 /* SnapguideTest-Info.plist */,
+				015271E2165DB22D0084D2C2 /* InfoPlist.strings */,
+				015271E5165DB22D0084D2C2 /* main.m */,
+				015271E7165DB22D0084D2C2 /* SnapguideTest-Prefix.pch */,
+				015271EB165DB22D0084D2C2 /* Default.png */,
+				015271ED165DB22D0084D2C2 /* Default@2x.png */,
+				015271EF165DB22D0084D2C2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		015271D4165DB22D0084D2C2 /* SnapguideTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015271F3165DB22D0084D2C2 /* Build configuration list for PBXNativeTarget "SnapguideTest" */;
+			buildPhases = (
+				015271D1165DB22D0084D2C2 /* Sources */,
+				015271D2165DB22D0084D2C2 /* Frameworks */,
+				015271D3165DB22D0084D2C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapguideTest;
+			productName = SnapguideTest;
+			productReference = 015271D5165DB22D0084D2C2 /* SnapguideTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		015271CC165DB22D0084D2C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Nick Lupinetti";
+			};
+			buildConfigurationList = 015271CF165DB22D0084D2C2 /* Build configuration list for PBXProject "SnapguideTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 015271CA165DB22D0084D2C2;
+			productRefGroup = 015271D6165DB22D0084D2C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				015271D4165DB22D0084D2C2 /* SnapguideTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		015271D3165DB22D0084D2C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015271E4165DB22D0084D2C2 /* InfoPlist.strings in Resources */,
+				015271EC165DB22D0084D2C2 /* Default.png in Resources */,
+				015271EE165DB22D0084D2C2 /* Default@2x.png in Resources */,
+				015271F0165DB22D0084D2C2 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		015271D1165DB22D0084D2C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015271E6165DB22D0084D2C2 /* main.m in Sources */,
+				015271EA165DB22D0084D2C2 /* NLAppDelegate.m in Sources */,
+				015271FC165DB2900084D2C2 /* NLNetworkManager.m in Sources */,
+				01527203165DC1870084D2C2 /* NLSnapguideTestViewController.m in Sources */,
+				0152720C165EDDB00084D2C2 /* NLInstagramPhotoCell.m in Sources */,
+				0152720F165EDDC60084D2C2 /* NLInstagramPhoto.m in Sources */,
+				0152721216604F200084D2C2 /* NLLoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		015271E2165DB22D0084D2C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015271E3165DB22D0084D2C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		015271F1165DB22D0084D2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		015271F2165DB22D0084D2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		015271F4165DB22D0084D2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapguideTest/SnapguideTest-Prefix.pch";
+				INFOPLIST_FILE = "SnapguideTest/SnapguideTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		015271F5165DB22D0084D2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapguideTest/SnapguideTest-Prefix.pch";
+				INFOPLIST_FILE = "SnapguideTest/SnapguideTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		015271CF165DB22D0084D2C2 /* Build configuration list for PBXProject "SnapguideTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015271F1165DB22D0084D2C2 /* Debug */,
+				015271F2165DB22D0084D2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015271F3165DB22D0084D2C2 /* Build configuration list for PBXNativeTarget "SnapguideTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015271F4165DB22D0084D2C2 /* Debug */,
+				015271F5165DB22D0084D2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 015271CC165DB22D0084D2C2 /* Project object */;
+}
